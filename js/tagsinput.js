@@ -116,9 +116,6 @@ tagsModule.directive('customtags', function() {
                 getRealLen(scope.pos[3].substr(0,scope.pos[1]));
               element.siblings('.tt-dropdown-menu').css({left:(pos*4.5>element.width()?element.width()-150:pos*4.5)+'px'});
             }
-            // var pos = kingwolfofsky.getInputPositon(element[0], val);
-            // element.siblings('.tt-dropdown-menu').css({left:pos.left - element.offset().left+'px',
-            //    top:pos.bottom - element.offset().top+'px'});
            });
 
           ngModel.$render = function() {
