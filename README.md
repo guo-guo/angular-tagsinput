@@ -7,6 +7,9 @@ example:
 
 `<div class="bootstrap-tagsinput" customtags ng-model="query.querySearch" >`
 
+测试代码地址:
+[http://runjs.cn/detail/6jor9r3m](http://runjs.cn/detail/6jor9r3m)  
+
 效果如下:
 
 
